@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "INDIA",
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04d",
+        "temp": 289.71,
+        "feels_like": 289.59,
+        "temp_min": 243.86,
+        "temp_max": 248.75,
+        "pressure": 1009,
+        "humidity": 83,
+        "image_url": "assets/india.jpg"
+    },
+    {
+        "id": 2,
+        "name": "CANADA",
+        "main": "Clouds",
+        "description": "rainy",
+        "icon": "04d",
+        "temp": 289.71,
+        "feels_like": 289.59,
+        "temp_min": 286.86,
+        "temp_max": 291.75,
+        "pressure": 1009,
+        "humidity": 83,
+        "image_url": "assets/canada.png"
+    },
+    {
+        "id": 3,
+        "name": "JAPAN",
+        "main": "Clouds",
+        "description": "rainy",
+        "icon": "04d",
+        "temp": 289.71,
+        "feels_like": 289.59,
+        "temp_min": 286.86,
+        "temp_max": 291.75,
+        "pressure": 1009,
+        "humidity": 83,
+        "image_url": "assets/japan.jpg"
+    },
+    {
+        "id": 4,
+        "name": "AUSTRALIA",
+        "main": "Clouds",
+        "description": "sunny",
+        "icon": "04d",
+        "temp": 289.71,
+        "feels_like": 289.59,
+        "temp_min": 286.86,
+        "temp_max": 291.75,
+        "pressure": 1009,
+        "humidity": 83,
+        "image_url": "assets/australia.jpg"
+    },
+    {
+        "id": 5,
+        "name": "KOREA",
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04d",
+        "temp": 289.71,
+        "feels_like": 289.59,
+        "temp_min": 286.86,
+        "temp_max": 291.75,
+        "pressure": 1009,
+        "humidity": 83,
+        "image_url": "assets/korea.png"
+    }
+]

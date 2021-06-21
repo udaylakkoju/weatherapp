@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+<div style="padding:2%">
+  <div class="row justify-content-md-center">
+    <div class="col-lg-8 col-md-8 col-sm-12">
+      <div class="w3-bar w3-teal">
+        <button class="w3-bar-item w3-button" routerLink="/">Weather List</button>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 orderList">
+      <div class="w3-bar w3-blue">
+        <button class="w3-bar-item w3-button" routerLink="app-order-list"> SELECTED COUNTRY REPORT</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="align-self-end col-lg-8 col-md-8 col-sm-12">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 orderList" style="padding: 2%;">
+      <app-selected-country></app-selected-country>
+    </div>
+  </div>
+
+</div>

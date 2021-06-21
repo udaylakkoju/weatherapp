@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <input class="w3-input w3-bselection w3-padding" type="search" [(ngModel)]="searchText" placeholder="Search Country">
+  </div>
+    <div class="col-lg-6 col-md-6 col-sm-12" style="padding:2% 5%;"
+      *ngFor="let list of lists | filter: searchText | sorting:'name'; let num = index" (click)=selectedlist(list)>
+      <div class="w3-container w3-center">
+        <div class="w3-card-4" style="width:auto">
+          <img src="{{list.image_url}}" alt="{{list.name}}" style="width:150px;min-height: 150px;">
+          <div class="w3-container" style="text-align: left;">
+            <p>{{list.name}}</p>
+            <p style="opacity:0.6">Description :{{list.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
